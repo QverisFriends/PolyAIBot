@@ -63,5 +63,3 @@ POLY_SUBGRAPH_URL=https://api.thegraph.com/subgraphs/name/Polymarket/polymarket-
 POLY_MARKET_KEYWORDS=election,president,war
 ```
 
-若你希望我直接使用公共子图并执行集成测试，请回复“公共子图测试”，我会用 `POLY_SUBGRAPH_URL` 进行查询并把返回的交易样例与后续的告警验证结果贴给你。
-我已实现一个 Gamma 适配器，会尝试几个常见的 trades/fills 查询并把字段映射为 BOT 使用的格式；若需要我也可以根据实际 GraphQL schema 做小范围调整以确保字段映射无误。
